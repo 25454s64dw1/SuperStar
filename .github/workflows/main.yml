@@ -14,11 +14,11 @@ jobs: # 执行的工作
       - name: Set up Python
         uses: actions/setup-python@v2 # 用于设置 Python 环境，它允许你指定要在工作环境中使用的 Python 版本
         with:
-          python-version: '3.9'  # 选择要用的Python版本
+          python-version: '3.10'  # 选择要用的Python版本
  
       - name: Install requirements.txt
         run: | # 安装依赖包
           pip install -r ./requirements.txt 
  
       - name: Run main.py
-        run: python main.py -u 学习通账号 -p 学习通密码 -l 244403509 
+        run: python main.py -u 15225922682 -p Zcx.070114 -l 255136308
